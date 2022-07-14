@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-formulario.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="logo"><img src="./imagenes/logo-sagrada-familia.png" width="150" height="80"  alt="Sagrada Familia"></a>
+        <div class="header-right">
+            <a  href="index.html">Inicio</a>
+          <a href="#contact">Login</a>
+          <a href="formulario.html">Registrarse</a>
+          <a class="active" href="reserva-cita.html">Reserva tu cita</a>
+        </div>
+      </div>
+    <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Nombre</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Nombres completos">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Apellidos Paterno</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Apellidos Paterno">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Apellidos Materno</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Apellidos Materno">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Tipo de documento</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="australia">DNI</option>
+                <option value="canada">CARNET DE EXTRANJERIA</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Numero de documento</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="numero de documento">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Fecha de nacimiento</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="lastname" placeholder="fecha de nacimiento">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Dirección</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Agregar dirección exacta">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">sexo</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="australia">Femenino</option>
+                <option value="canada">Masculino</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="edad">Edad</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="edad" placeholder="edad">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="email" placeholder="email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Detalles</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Enfermedades previas" style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+</body>
+</html>
